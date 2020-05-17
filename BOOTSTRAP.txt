@@ -1,0 +1,24 @@
+------- BOOTSTRAP -------
+Baixá-lo e colocar na pasta do site
+Baixar JQUARY e colocar na pasta js do BOOTSTRAP
+fazer as importações:
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+As linhas possuem 12 colunas
+
+------- CLASSES -------
+<div class="container"> cria um container
+<div class="container-fluid"></div> cria um container que se ajusta no tamanho da tela
+
+<div class="row"> cria uma linha
+<div class="col-breakpoint-num_colunas"> cria colunas
+    EX: <div class="col-sm-6 col-xs-12"></div>
+        de sm até xl terá dois container de 6 colunas na mesma linha, xl terá duas linhas de 12 colunas cada
+<div class="col-12"> 12 colunas em todos os breakpoints
+
+@media screen and (max-width: 576px){
+          576 é o tamanho máximo do xs, logo tudo que estiver aqui será referente ao smartphone
+}
